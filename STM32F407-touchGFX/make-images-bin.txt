@@ -1,0 +1,8 @@
+TouchGTXxyzEnvironment öffnen
+
+cd "C:\your-directory\STM32F4yy-touchGFX\Debug"
+
+arm-none-eabi-objcopy.exe --dump-section ExtFlashSection=images.bin STM32F4yy-touchGFX.elf
+
+
+
